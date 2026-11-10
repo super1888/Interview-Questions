@@ -1,4 +1,4 @@
 interface:
   display_name: "简历定制面试"
-  short_description: "根据简历与岗位生成可直接使用的面试对话、技术追问和参考答案"
-  default_prompt: "使用 $interview-questions 分析这些简历，结合我的面试官角色与岗位要求，为每人生成带追问和参考答案的面试稿。"
+  short_description: "先确认面试官角色与考察重点，再按简历定制问题、分层追问和参考答案"
+  default_prompt: "使用 $interview-questions 分析这些简历；先确认我本轮的面试官角色和考察重点，再生成带具体追问与参考答案的面试稿。"
